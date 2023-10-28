@@ -9,6 +9,8 @@ This project introduces a web automation approach for password testing using the
 - [Configuration](#configuration)
 - [Conclusion](#conclusion)
 
+### Link for passwords list: [full_passwords_list.txt](https://drive.google.com/file/d/1rzYWUeJiCynnA9pYlR9m9rtKehCLAt2q/view?usp=drivesdk)
+
 ## Introduction
 
 Security testing is a fundamental practice to ensure the robustness of web-based authentication systems. Commonly, security analysts and penetration testers use automated tools to evaluate password strength, identify weak passwords, and potentially uncover security flaws. This project aims to facilitate this process by introducing a Python script that employs the Selenium framework for web automation. The script systematically generates and tests passwords, providing valuable insights into the security of online login systems.
@@ -33,11 +35,7 @@ The script consists of several key components:
 
   Similar to the password field, this function identifies the submit button by its CSS selector and waits for it to become clickable.
 
-- **Comparing Strings (compare_strings(str1, str2))**
-
-  A utility function that compares two strings and determines their relationship, aiding in sorting and selecting passwords.
-
-- **Password Attack (attack(URL, email_value, root, first_password, character_set, length))**
+- **Password Attack (attack(URL, email_value, password_file))**
 
   The core function of the script, which performs the password testing. It systematically generates different password combinations and tests them. The function is designed to restart the WebDriver after a specified number of attempts to prevent potential blocking by the target website.
 
