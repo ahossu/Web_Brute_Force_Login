@@ -70,5 +70,5 @@ def attack(URL, email_value, password_file):
 if __name__ == "__main__":
     url = 'https://example.com/login'
     email = 'Username'
-    password_list_file = 'full_passwords_list.txt'
+    password_list_file = 'full_password_list.txt'
     attack(url, email, password_list_file)
