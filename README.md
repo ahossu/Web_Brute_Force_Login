@@ -49,14 +49,6 @@ To adapt this script for your specific purposes, follow these guidelines:
 
 - **Email or Username (email_value):** Set the email_value variable to the email or username you wish to use for testing.
 
-- **Password Base (root):** Define a common base for the passwords you want to test. This base remains constant for all generated passwords.
-
-- **First Password (first_password):** Specify the initial password from which testing will begin.
-
-- **Character Set (character_set):** Modify this variable to define the character set from which passwords will be generated. By default, it includes only digits (0-9), but you can expand it to include uppercase and lowercase letters and special characters according to your requirements.
-
-- **Password Length (length):** Define the maximum length for the passwords you want to test.
-
 By customizing these variables, users can utilize the script to assess the security of various online login systems, making it a valuable tool for both security professionals and developers.
 
 ## Conclusion
