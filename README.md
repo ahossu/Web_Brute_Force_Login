@@ -9,7 +9,7 @@ This project introduces a web automation approach for password testing using the
 - [Configuration](#configuration)
 - [Conclusion](#conclusion)
 
-#### Link for passwords list: [full_password_list.txt](https://drive.google.com/file/d/1rzYWUeJiCynnA9pYlR9m9rtKehCLAt2q/view?usp=drivesdk)
+#### Link for passwords list: [full_password_list.txt](https://drive.google.com/file/d/1rzYWUeJiCynnA9pYlR9m9rtKehCLAt2q/view?usp=drivesdk "Google Drive")
 
 ## Introduction
 
