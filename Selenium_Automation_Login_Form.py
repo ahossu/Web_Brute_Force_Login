@@ -106,7 +106,3 @@ def attack(URL, email_value, root, first_password, character_set, length):
     finally:
         if 'driver' in locals():
             driver.quit()
-
-# Example usage
-if not attack('https://example.com/login', "Username", "PasswordRoot", "9999", string.digits, 4):
-    print("Password found or error. Stopping the program.")
