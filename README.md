@@ -49,6 +49,15 @@ To adapt this script for your specific purposes, follow these guidelines:
 
 By customizing these variables, users can utilize the script to assess the security of various online login systems, making it a valuable tool for both security professionals and developers.
 
+#### Example of usage
+``` python
+if __name__ == "__main__":
+    url = 'https://example.com/login'
+    email = 'Username'
+    password_list_file = 'full_password_list.txt'
+    attack(url, email, password_list_file)
+```
+
 ## Conclusion
 
 The web automation script presented in this project offers a systematic approach to password testing, enabling users to evaluate the security of online login systems. By following the provided guidelines and adapting the script for specific projects, users can uncover vulnerabilities, detect weak passwords, and contribute to enhancing the security of web-based applications.
