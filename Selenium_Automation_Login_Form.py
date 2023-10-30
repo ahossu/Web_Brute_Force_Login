@@ -65,10 +65,3 @@ def attack(URL, email_value, password_file):
     finally:
         if 'driver' in locals():
             driver.quit()
-
-# Example usage
-if __name__ == "__main__":
-    url = 'https://example.com/login'
-    email = 'Username'
-    password_list_file = 'full_password_list.txt'
-    attack(url, email, password_list_file)
