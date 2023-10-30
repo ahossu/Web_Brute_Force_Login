@@ -2,6 +2,8 @@
 
 This project introduces a web automation approach for password testing using the Selenium framework. The developed script is a versatile tool that can be applied to assess the security of login systems on websites. The script automates the process of attempting login with various password combinations, allowing users to evaluate the strength of their passwords and detect vulnerabilities in web-based authentication systems.
 
+This is a software that is used to crack passwords using brufe-forece method. Please use it in accordance with the website's policy.
+
 ## Table of Contents
 
 - [Introduction](#introduction)
